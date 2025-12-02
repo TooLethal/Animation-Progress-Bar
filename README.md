@@ -31,5 +31,3 @@ index.html   # Main HTML structure
 style.css    # Progress bar styling and animation
 ```
 
-
-Would you like me to also add a **demo GIF placeholder section** so your GitHub page looks more engaging and professional?
