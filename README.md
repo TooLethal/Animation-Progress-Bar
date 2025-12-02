@@ -1,7 +1,3 @@
-Here’s a clean **GitHub-style project description** for the second progress bar you shared:
-
----
-
 # 🎨 Animated Linear Progress Bar
 
 A lightweight **HTML + CSS progress bar** that animates smoothly from start to finish, changing colors at key milestones. This version uses a single progress element with a streamlined animation sequence, making it simpler and more maintainable.
