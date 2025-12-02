@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --progreebar-w: 40em;
+    --progreebar-h: 4em;
+    --progressbar-bg: lightgrey;
+    --start: red;
+    --middle: blue;
+    --finish: green;
+} 
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    width: var(--progreebar-w);
+    height: var(--progreebar-h);
+    border-radius: 40px;
+    background-color: var(--progressbar-bg);
+}
+
+.progress-status{
+   width: var(--progreebar-w);
+   height: var(--progreebar-h);
+   border-radius: 40px;
+   border: 2px;
+   animation: progBar 10s ease-in forwards ;
+}
+
+@keyframes progBar{
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 33.33%;
+        background-color: var(--start);
+    }
+    50%{
+        width: 66.66%;
+        background-color: var(--middle);
+    }
+    100%{
+        width: 100%;
+        background-color: var(--finish);
+    }
+}
